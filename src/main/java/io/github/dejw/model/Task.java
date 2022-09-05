@@ -12,7 +12,7 @@ public class Task {
     private String description;
     private boolean done;
 
-    Task(){
+    public Task(){
     }
 
     public int getId() {

@@ -1,10 +1,12 @@
 package io.github.dejw.model;
+
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
 
 @Entity
 @Table(name = "tasks")
-public class Task {
+public
+class Task {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
@@ -12,7 +14,7 @@ public class Task {
     private String description;
     private boolean done;
 
-    public Task(){
+    public Task() {
     }
 
     public int getId() {

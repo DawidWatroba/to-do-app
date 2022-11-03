@@ -1,0 +1,12 @@
+spring:
+  h2.console:
+    enabled: true
+    path: '/console'
+  datasource:
+    url: 'jdbc:h2:file:C:\Users\ja\.Programowanie\.Udemy kurs Springa\todo-app\todo-db'
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+  main:
+    banner-mode: "off"
+task.template.allowMultipleTasksFromTemplate: false
